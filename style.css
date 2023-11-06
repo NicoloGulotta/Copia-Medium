@@ -46,6 +46,7 @@ div .nav-user-icon button {
 
 div.box-total {
     display: flex;
+    padding: 0 100px
 }
 
 div.box-left {
@@ -95,7 +96,7 @@ div.user-box-total {
 
 div.user-box-text h2 {
     font-family: 'Times New Roman', Times, serif;
-    ;
+    
 }
 
 
@@ -154,22 +155,22 @@ button {
     margin: 20px 0;
 
 }
-
-div.topic-title {
-    display: block;
+div.topic-box{
+    width: 200px;
+    height: 200px;
 }
-
-
-div.topic-box {
+div.topic-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    padding-bottom: 20px;
+}
+div.topic-item{
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
 }
-
 div.topic-item span {
-    position: relative;
-    padding: 10px 20px;
-    background-color: #24242461;
-    border-radius: 20px;
-
+    padding: 5px 5px;
+    margin: 10px 10px;
+    background-color: rgb(202, 203, 205);
+    border-radius: 10px;
 }
